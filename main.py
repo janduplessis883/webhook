@@ -12,3 +12,5 @@ app = FastAPI()
 def read_item(item: Item):
     print(item)
     return item
+
+# uvicorn main:app --reload  #nRUnniing this locally
